@@ -19,3 +19,7 @@ go run ./lattice.go
 ```sh
 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64-mingw32-g++ GOOS=windows CGO_ENABLED=1 go build ./lattice.go
 ```
+
+# Acknowlegments
+
+Based on https://github.com/go-gl/example/blob/78e38325eaa591fab678df5f08ec1fd62d3b8339/gl41core-cube/cube.go
