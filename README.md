@@ -2,13 +2,13 @@
 
 gogllattice is a learning project for OpenGL
 
-lattice.go generates a color cube where each cubes size is cycled between small
-and large producing fractal-like images.
+lattice.go generates a color cube lattice where each individual cube's
+size is cycled between small and large producing fractal-like images.
 
 Controls are `W`, `A`, `S`, `D`. `Space` for "up", and `Z` for "down".
-Shift+key reduces speed. Ctrl+key increases speed.
+`Shift`+key reduces speed. `Ctrl`+key increases speed.
 
-# To run on Linux:
+## To run on Linux:
 
 ```sh
 go run ./lattice.go
